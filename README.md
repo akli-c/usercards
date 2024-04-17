@@ -34,6 +34,8 @@ cd usercards
 
 Open index.html in a web browser to view the application.
 
+Or you can directly go to this link, the project is deployed on github : https://akli-c.github.io/usercards/
+
 
 ## Contact
 Email : aklichitti67@gmail.com
