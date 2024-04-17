@@ -52,7 +52,7 @@ html {
 }
 
 .dark-mode, .dark-mode .card, .dark-mode .img-thumbnail, .dark-mode .modal-content {
-  background-color: #495057; 
+  background-color: #495057!important; 
   color: #ffffff;
 }
 .user-card {
