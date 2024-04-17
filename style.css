@@ -4,13 +4,26 @@
 
 html {
     font-size: 16px;
-}
-body {
-    font-size: clamp(0.9rem, 1.5rem, 1.5vw);
+} 
+
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+  .container .user-card {
+    flex:1 0 80%;
+    max-width: 80%; 
+    margin: 1vw; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
   }
-  
-@media screen and (max-width:1024px) {
-    .container .user-card {
+
+  .modal-content {
+    width: 80%!important;
+    padding:1rem!important;
+  }
+}
+@media screen and (min-width : 480px) and (max-width:1024px) {
+
+  #users-container .user-card {
         flex: 0 0 40%; 
         max-width: 50%; 
         margin: 1vw; 
