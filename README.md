@@ -22,13 +22,16 @@ The User Cards application dynamically displays user profiles fetched from the R
 
 ## Setup and Installation
 1. Clone the repository:
-   ```
-   git clone https://github.com/akli-c/usercards.git
-    ```
-Navigate to the project directory:
+
+```
+git clone https://github.com/akli-c/usercards.git
+```
+2. Navigate to the project directory:
+
 ```
 cd usercards
 ```
+
 Open index.html in a web browser to view the application.
 
 
